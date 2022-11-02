@@ -24,7 +24,7 @@ span {
 
 .container {
     box-shadow: 0 0 20px gray;
-    width: 1020px;
+    width: 960px;
     margin: 0 auto;
     background-color: white;
 }
@@ -36,14 +36,14 @@ img {
 
 section,
 header {
-    padding: 10px 50px 20px 50px;
+    padding: 10px 40px 20px 40px;
 }
 
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 50px;
+    padding-top: 40px;
 }
 
 header ul {
@@ -53,6 +53,7 @@ header ul {
 header address {
     font-style: normal;
     font-weight: bold;
+    font-size: smaller;
 }
 
 section ul {
