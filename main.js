@@ -1,7 +1,7 @@
 const sections = document.querySelectorAll('.section');
+const allSections = document.querySelector('.main-content');
 const sectBtns = document.querySelectorAll('.controls');
 const sectBtn = document.querySelectorAll('.control');
-const allSections = document.querySelector('.main-content');
 
 function PageTransitions() {
     for(let i = 0; i < sectBtn.length; i++) {
@@ -17,7 +17,6 @@ function PageTransitions() {
             sectBtns.forEach((btn) => {
                 btn.classList.remove('active')
             })
-            e.target.classList.add('active')
             sections.forEach((section) => {
                 section.classList.remove('active')
             })
@@ -25,7 +24,9 @@ function PageTransitions() {
             element.classList.add('active');
         }
     })
+}
 
+function LightTheme() {
     const themeBtn = document.querySelector('.theme-btn');
     themeBtn.addEventListener('click', ()=> {
         let element = document.body;
@@ -34,3 +35,4 @@ function PageTransitions() {
 }
 
 PageTransitions();
+LightTheme();
