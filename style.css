@@ -730,6 +730,10 @@ section {
         flex-direction: column;
     }
 
+    .contact-content-con .left-contact {
+        margin-left: auto;
+    }
+
     .contact-content-con .right-contact {
         margin-left: 0;
         margin-top: 2.5rem;
